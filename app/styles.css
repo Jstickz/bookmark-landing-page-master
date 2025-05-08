@@ -1,0 +1,10 @@
+.hide-navbar {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="radio"]:checked + span {
+  color: hsl(229, 31%, 21%);
+}
