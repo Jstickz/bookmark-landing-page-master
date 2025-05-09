@@ -40,10 +40,10 @@ input[type="radio"]:checked + span {
 
 .backgroundImages {
   scale: 0.8;
-  opacity: 0;
+  opacity: .5;
   animation: fade-in linear forwards;
   animation-timeline: view();
-  animation-range: entry 50px;
+  animation-range: entry 10px;
 }
 
 @keyframes fade-in {

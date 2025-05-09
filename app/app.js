@@ -173,3 +173,12 @@ submitEmail.addEventListener("click", () => {
     showMessage("Thank You!", false);
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.querySelector(".submitEmail");
+  button.addEventListener("click", function (event) {
+    event.preventDefault(); // Prevents default form submission
+    console.log("Button clicked — default prevented.");
+    // You can add your custom logic here
+  });
+});
